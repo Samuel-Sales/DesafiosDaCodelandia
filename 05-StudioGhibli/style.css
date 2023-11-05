@@ -5,6 +5,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+:root {
+    --branco: #F9F9F9;
+    --verde-botao: #658E76;
+}
+
 body {
     background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
     background-repeat: no-repeat;
@@ -42,7 +47,7 @@ body {
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
-    color: #F9F9F9;
+    color: var(--branco);
     margin-bottom: 14px;
 }
 
@@ -50,7 +55,7 @@ body {
     font-weight: 900;
     font-size: 68px;
     line-height: 74.12px;
-    color: #F9F9F9;
+    color: var(--branco);
     margin-bottom: 25px;
 }
 
@@ -58,7 +63,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 28.8px;
-    color: #F9F9F9;
+    color: var(--branco);
     margin-bottom: 46px;
 }
 
@@ -70,8 +75,8 @@ body {
 .container-conteudo-botoes a {
     text-decoration: none;
     padding: 16px 40px;
-    border: 4px solid #658e76;
-    color: #F9F9F9;
+    border: 4px solid var(--verde-botao);
+    color: var(--branco);
     border-radius: 10px;
 }
 
@@ -80,9 +85,9 @@ body {
 }
 
 .container-conteudo-botoes-assistir-agora:hover {
-    border: 4px solid white;
+    border: 4px solid var(--branco);
 }
 
 .container-conteudo-botoes-assistir-trailer:hover {
-    background-color: #658E76;
+    background-color: var(--verde-botao);
 }
