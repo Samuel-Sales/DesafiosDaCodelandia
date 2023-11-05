@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
+    background-repeat: no-repeat;
+}
+
+/* Header */
+.container-header {
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.menu-navegacao ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
