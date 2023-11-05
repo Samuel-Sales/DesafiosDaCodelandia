@@ -38,10 +38,6 @@ body {
     justify-content: space-between;
 }
 
-.container-conteudo {
-    
-}
-
 .container-conteudo-nome {
     font-weight: 700;
     font-size: 20px;
@@ -67,7 +63,8 @@ body {
 }
 
 .container-conteudo-botoes {
-    
+    display: flex;
+    gap: 15px;
 }
 
 .container-conteudo-botoes a {
@@ -79,5 +76,13 @@ body {
 }
 
 .container-conteudo-botoes-assistir-agora {
+    background-color: #658E76;
+}
+
+.container-conteudo-botoes-assistir-agora:hover {
+    border: 4px solid white;
+}
+
+.container-conteudo-botoes-assistir-trailer:hover {
     background-color: #658E76;
 }
