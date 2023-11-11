@@ -1,0 +1,112 @@
+.container {
+    font-family: 'Inter', sans-serif;
+    background: #111827;
+}
+
+.conteudo {
+    padding: 10em 28.5em;
+}
+
+.container__nome {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 79.78px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 1.5em;
+}
+
+.container__sobre {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38.4px;
+    text-align: center;
+    color: #F3F4F6;
+}
+
+.secao1 {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.conteudo__sobre1 p {
+    background: #353436;
+    padding: 4.37em 4.25em;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.conteudo__sobre2 p {
+    background: #B91C1C;
+    padding: 4.37em 4.25em;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.conteudo__sobre3 p {
+    background: #481A8F;
+    padding: 4.37em 4.25em;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.cursos__container h2 {
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 66.48px;
+    margin-top: 107px;
+    margin-bottom: 50px;
+}
+
+.cursos__organizador1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cursos__organizador1 div {
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    margin: 32px;
+    background: #F3F4F6;
+    padding: 63px 69px;
+    width: 15%;
+}
+
+/* .cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cursos div {
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    margin: 5px;
+    background: #F3F4F6;
+    padding: 63px 69px;
+    max-width: 280px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: #F3F4F6;
+    text-align: center;
+    padding: 63px 69px; */
+/* } */

@@ -1,0 +1,31 @@
+:root {
+    --fonte: 'Inter', sans-serif;
+    --cor-links: #353436;
+}
+
+header {
+    font-family: var(--fonte);
+}
+
+.container {
+    padding: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container__navegacao a {
+    text-decoration: none;
+    margin-left: 56px;
+    font-weight: 500;
+    font-size: 1.25em;
+    line-height: 24.2px;
+    color: var(--cor-links);
+}
+
+.container__redes__sociais a {
+    margin-left: 40px;
+}
