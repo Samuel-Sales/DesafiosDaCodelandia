@@ -1,6 +1,9 @@
 .container {
     font-family: 'Inter', sans-serif;
     background: #111827;
+    /* max-width: 1440px;
+    height: 100%;
+    margin: 0 auto; */
 }
 
 .conteudo {
@@ -72,6 +75,7 @@
 }
 
 .cursos__organizador1 {
+    font-family: 'Inter', sans-serif;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -87,26 +91,71 @@
     width: 15%;
 }
 
-/* .cursos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.container__estagios {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
 }
 
-.cursos div {
-    border: 1px solid black;
-    border-radius: 4px;
+.container__estagios__titulo {
+    border: 1px solid #B91C1C;
+    width: 960px;
+    height: 600px;
+    flex-shrink: 0;
+    background: #B91C1C;
+    padding: 232px 200px;
+}
+
+.container__estagios__titulo h1 {
+    color: #FFF;
     text-align: center;
-    margin: 5px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: uppercase;
+}
+
+.container__estagios__trampo {
+    border: 1px solid #F3F4F6;
     background: #F3F4F6;
-    padding: 63px 69px;
-    max-width: 280px;
-    border: 1px solid black;
-    border-radius: 4px;
-    background: #F3F4F6;
+    width: 942.7px;
+    height: 600px;
+    flex-shrink: 0;
+    
+}
+
+.container__estagios__trampo__conteudo {
+    margin-top: 4em;
+}
+
+.container__estagios__trampo__conteudo__titulo {
+    color: #111827;
     text-align: center;
-    padding: 63px 69px; */
-/* } */
+    font-family: 'Mukta', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container__estagios__trampo__conteudo__data {
+    color: #353436;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container__estagios__trampo__conteudo__mais {
+    color: #B91C1C;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+}

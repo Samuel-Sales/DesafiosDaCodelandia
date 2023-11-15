@@ -86,6 +86,31 @@ export default function Main() {
                     </div>
                 </div>
             </section>
+
+            <section className={style.container__estagios}>
+                <div className={style.container__estagios__titulo}>
+                    <h1>Estágios e empregos</h1>
+                </div>
+                <div className={style.container__estagios__trampo}>
+                    <div className={style.container__estagios__trampo__conteudo}>
+                        <p className={style.container__estagios__trampo__conteudo__titulo}>Lorem ipsum dolor sit amet</p>
+                        <p className={style.container__estagios__trampo__conteudo__data}>Publicado em 00/00/2000</p>
+                        <p className={style.container__estagios__trampo__conteudo__mais}>Mais mais sobre a vaga</p>
+                    </div>
+
+                    <div className={style.container__estagios__trampo__conteudo}>
+                        <p className={style.container__estagios__trampo__conteudo__titulo}>Lorem ipsum dolor sit amet</p>
+                        <p className={style.container__estagios__trampo__conteudo__data}>Publicado em 00/00/2000</p>
+                        <p className={style.container__estagios__trampo__conteudo__mais}>Mais mais sobre a vaga</p>
+                    </div>
+
+                    <div className={style.container__estagios__trampo__conteudo}>
+                        <p className={style.container__estagios__trampo__conteudo__titulo}>Lorem ipsum dolor sit amet</p>
+                        <p className={style.container__estagios__trampo__conteudo__data}>Publicado em 00/00/2000</p>
+                        <p className={style.container__estagios__trampo__conteudo__mais}>Mais mais sobre a vaga</p>
+                    </div>
+                </div>
+            </section>
         </>
     )
 }
