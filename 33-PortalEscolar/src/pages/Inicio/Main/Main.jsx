@@ -111,6 +111,39 @@ export default function Main() {
                     </div>
                 </div>
             </section>
+
+            <section className={style.container__noticias}>
+                <h2>Notícias</h2>
+                <div className={style.container__noticias__card}>
+                    <div className={style.container__noticias__card__itens}>
+                        <img src="/imagens/Rogue.jpg" alt="imagem da noticia" />
+                        <p className={style.container__noticias__card__itens__descricao}>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </p>
+                        <p className={style.container__noticias__card__itens__data}>Postado em 00/00/00</p>
+                    </div>
+                    <div className={style.container__noticias__card__itens}>
+                        <img src="/imagens/Rogue.jpg" alt="imagem da noticia" />
+                        <p className={style.container__noticias__card__itens__descricao}>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </p>
+                        <p className={style.container__noticias__card__itens__data}>Postado em 00/00/00</p>
+                    </div>
+                    <div className={style.container__noticias__card__itens}>
+                        <img src="/imagens/Rogue.jpg" alt="imagem da noticia" />
+                        <p className={style.container__noticias__card__itens__descricao}>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </p>
+                        <p className={style.container__noticias__card__itens__data}>Postado em 00/00/00</p>
+                    </div>
+                </div>
+                <span className={style.botao__ver__mais}>
+                    <button>Ver mais notícias</button>
+                </span>
+            </section>
         </>
     )
 }
